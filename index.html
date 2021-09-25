@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GitFetch</title>
+</head>
+
+<body>
+  <!-- main start -->
+  <div class="main" id="main">
+    <div class="container"> <!--MAIN CONTAINER OF THE DATA-->
+      <div class="row">
+        <div class="searchBox">
+          <div class="main__text-container">
+            <h3 class="main__subtitle">Github Profile Analyzer</h3>
+          </div>
+          <div class="main__input-container">
+            <input type="text" id="search" class="main__input" placeholder="Enter a username...">
+            <span>
+              <input type="button" class="searchButton" value="Anlayze">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="main__profile-container"> <!--PROFILE DATA PART-->
+        <div class="main__profile">
+          <div class="row">
+            <table class="col-md-6" style="border-bottom: black solid 2px;">
+                <tr>
+                    <td class="main__profile-avt main__profile-key"></td>
+                    <td class="main__profile-name main__profile-key"><strong>Search for a user to analyze.</strong></td>
+                    <td class="main__profile-repos main__profile-key"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="main__profile-username main__profile-key" style="font-size: small; color: rgba(80, 80, 80, 0.733);"></td>
+                    <td class="main__profile-url main__profile-key"></td>
+                </tr> 
+            </table>
+              <table class="languages_name"> <!--LANAGUAGE ANALYZATION PART-->
+              </table>
+              <p class="main__profile-lang main__profile-key">
+
+              </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <!-- main end -->
+</body>
+
+</html>
